@@ -8,17 +8,25 @@ html,
   background: #f3f3f3 !important;
 }
 
+// inline, header, not a full-width header, used on drip and welcome
 .container.header {
-  background: #f3f3f3;
+  background: $primary-color;
 }
 
+// border on the drip layout before the main content body
 .body-drip {
-  border-top: 8px solid #663399;
+  border-top: 8px solid $tertiary-color;
 }
 
-// Full Width Headers
+// Full Width Header colors
 .header {
-  background: #8a8a8a;
+  background: $primary-color;
+  color: #ffffff !important;
+}
+
+// Short-term override
+.header *{
+	color: #ffffff !important;
 }
 
 .header .columns {
@@ -54,6 +62,7 @@ table.button.google table td {
   border-color: #DB4A39;
 }
 
+// hero social media wrap
 .wrapper.secondary {
   background: #f3f3f3;
 }
