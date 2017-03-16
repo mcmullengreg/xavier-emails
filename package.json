@@ -5,7 +5,7 @@
   "repository": "zurb/foundation-emails-template",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "start": "gulp --production",
+    "start": "gulp",
     "build": "gulp --production",
     "zip": "gulp zip --production",
     "litmus": "gulp litmus --production",

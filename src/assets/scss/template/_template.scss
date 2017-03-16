@@ -2,15 +2,21 @@
 // Feel free to remove these styles for production!
 
 // Body Styles 
+
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  //background: lighten($secondary-color, 35%) !important;
+  background: #ffffff !important;
 }
 
 // inline, header, not a full-width header, used on drip and welcome
 .container.header {
   background: $primary-color;
+}
+
+.container.no-bg {
+  background: none !important;
 }
 
 // border on the drip layout before the main content body
@@ -42,8 +48,13 @@ html,
   padding: 20px;
 }
 
-.header .container {
-  background: transparent;
+.fw-hero table.button.hero-button table td {
+  color: $white;
+  border-color: $white;
+}
+  
+.fw-hero table.button.hero-button table td a{
+  color: $white;
 }
 
 // Social Media
@@ -65,4 +76,19 @@ table.button.google table td {
 // hero social media wrap
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+.lead {
+  color: #0099cc;
+}
+
+.footer *{
+  color: #535353;
+}
+
+td{
+  word-break: break-word;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
 }

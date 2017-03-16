@@ -1,0 +1,25 @@
+---
+subject: Full Width Hero
+description:
+First_Name: "{{ First_Name }}"
+---
+
+{{!-- Turn into a partial --}}
+ {{> header width=250 height=63}} 
+ {{> spacer }}  
+{{!-- End header partial --}}
+  
+<container>  
+  {{> filler }}
+
+  {{> letter }}  
+  
+  <center>
+    <button href="http://www.xavier.edu" class="expanded">
+      Button Text
+    </button>
+  </center>
+  
+</container>
+
+{{>footer office="Office of Graduate Admissions" phone="(513) 745-3360" }}

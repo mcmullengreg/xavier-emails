@@ -12,17 +12,17 @@ subject: My Drip Email Template Subject
   </row>
 </container>
 
-<spacer size="16"></spacer>
+{{> spacer }} <!-- default size is 16px -->
 
 <container class="body-drip">
 
-  <spacer size="16"></spacer>
+  {{> spacer }}
 
   <center>
     <img src="http://placehold.it/120/9ea2a2" alt="">
   </center>
 
-  <spacer size="16"></spacer>
+  {{> spacer }}
 
   <row>
     <columns>
@@ -44,7 +44,7 @@ subject: My Drip Email Template Subject
 
   <row class="collapsed footer">
     <columns>
-      <spacer size="16"></spacer>
+      {{> spacer }}
       <p class="text-center">@copywrite nobody<br/>
       <a href="#">hello@nocopywrite.com</a> | <a href="#">Manage Email Notifications</a> | <a href="#">Unsubscribe</a></p>
       <center>
